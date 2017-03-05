@@ -1,0 +1,83 @@
+.data-list {
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.data-list dt {
+    font-weight: bold;
+    float: left;
+    margin-right: 10px;
+    clear: left;
+}
+
+.data-list dd {
+    margin-bottom: 10px;
+}
+
+.popup-holder {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s, visibility 0.2s;
+}
+
+.popup-holder.is-open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup {
+    max-width: 400px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+.user-editor-form {
+    margin: 0 auto;
+    max-width: 400px;
+    width: 100%;
+    padding: 30px 30px 15px;
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px rgba(0,0,0,.14), 0 1px 18px rgba(0,0,0,.12);
+    background: #f6f6f6;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+}
+
+.tip {
+    font-size: 11px;
+}

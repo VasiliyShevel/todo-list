@@ -1,0 +1,9 @@
+<div class="wrapper">
+    <navbar [init]="user"></navbar>
+    <tabs>
+      <tab [tabTitle]="'My todo-list'"><user-todos></user-todos></tab>
+      <tab tabTitle="Shared todo-list"><shared-todos></shared-todos></tab>
+      <tab tabTitle="User Info"><user-info (change)="changeUserInfo($event)"></user-info></tab>
+    </tabs>
+</div>
+<!--<todos></todos>-->

@@ -1,0 +1,21 @@
+:host {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    min-height: 50px;
+    padding: 15px 20px;
+    background: #f6f6f6;
+    box-shadow: 0 1px 8px rgba(0,0,0,.2), 0 3px 4px rgba(0,0,0,.14), 0 3px 3px -2px rgba(0,0,0,.12);
+}
+
+.user-info {
+    display: flex;
+}
+
+.username {
+    margin-right: 20px;
+}

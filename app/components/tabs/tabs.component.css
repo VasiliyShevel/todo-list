@@ -1,0 +1,32 @@
+.tabs {
+    background: #2196f3;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.tabs li {
+    list-style: none;
+    flex: 1 0 0;
+    text-align: center;
+}
+
+.tabs li.active a{
+    background: #1e88e5;
+}
+
+.tabs a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    transition: background 0.2s;
+}
+
+.tabs a:hover {
+    background: #1e88e5;
+}

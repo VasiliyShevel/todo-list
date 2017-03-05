@@ -1,0 +1,86 @@
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*, *:after, *:before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font: 14px/18px Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #2196f3;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #1e88e5;
+  text-decoration: none;
+}
+
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+.btn {
+  padding: 10px 15px;
+  background: #2196f3;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background: #1e88e5;
+}
+
+.btn-primary {
+  background: #d62828;
+}
+
+.btn-primary:hover{
+  background: #bd2626;
+}
+
+.btn[disabled] {
+  background: rgba(0,0,0,.25);
+  cursor: not-allowed;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="number"] {
+  height: 35px;
+  padding: 5px;
+  border: 2px solid #ccc;
+}
+
+textarea {
+  padding: 5px;
+  border: 2px solid #ccc;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.error-message {
+  color: red;
+}

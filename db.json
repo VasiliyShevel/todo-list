@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "johndoe@gmail.com",
+      "login": "JohnDoe",
+      "password": "pass123",
+      "id": 1
+    },
+    {
+      "firstName": "Holly",
+      "lastName": "Holm",
+      "email": "hollyholm@gmail.com",
+      "login": "HollyHolm",
+      "password": "123456",
+      "id": 2
+    }
+  ],
+  "todos": [
+    {
+      "title": "First todo item",
+      "description": "Description for First todo item",
+      "required": false,
+      "shared": true,
+      "done": false,
+      "hidden": false,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "title": "third app",
+      "description": "desc",
+      "required": false,
+      "shared": true,
+      "done": false,
+      "hidden": true,
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "title": "second app",
+      "description": "desc",
+      "required": false,
+      "shared": false,
+      "done": false,
+      "hidden": false,
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "title": "My todo Item",
+      "description": "Description",
+      "required": true,
+      "shared": true,
+      "done": false,
+      "hidden": true,
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "title": "second app",
+      "description": "Desc",
+      "required": true,
+      "shared": true,
+      "done": false,
+      "hidden": false,
+      "userId": 2,
+      "id": 5
+    }
+  ]
+}
