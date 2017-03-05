@@ -1,4 +1,4 @@
-/* This is new branch */
+/* This is a comment */
 
 import { Component } from '@angular/core';
 
